@@ -13,9 +13,9 @@ public class KafkaAccessLogValve extends AbstractAccessLogValve {
     @Override
     public void log(CharArrayWriter message) {
         try {
-            log.info("Info##########Sending kafka record: {}"+ message);
+
             String tomcatInstance = System.getProperty(KafkaConstants.LIFERAY_NODE_SYSTEM_PROPERTY);
-            new Thread(() -> new KafkaMessageSender().sendMessage(tomcatInstance + " - - " + message.toString())).start();
+            new Thread(() -> new KafkaMessageSender().sendMessage(message.toString())).start();
            /* Thread thread = new Thread(){;
                 public void run(){
                     System.out.println("Thread Running");
