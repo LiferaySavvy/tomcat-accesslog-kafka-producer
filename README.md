@@ -10,7 +10,6 @@
 
 ````
 mvn clean install
-gradlew deploy
 
 
 ````
