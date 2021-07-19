@@ -14,5 +14,5 @@ mvn clean install
 
 ````
 ### Documentation 
-* [link](link)
-* [link](link)   
+* [http://www.liferaysavvy.com/2021/07/liferay-tomcat-access-logs-to-kafka.html](http://www.liferaysavvy.com/2021/07/liferay-tomcat-access-logs-to-kafka.html)
+ 
