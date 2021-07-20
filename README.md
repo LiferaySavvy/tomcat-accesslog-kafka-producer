@@ -1,4 +1,4 @@
-# omcat-accesslog-kafka-producer
+# tomcat-accesslog-kafka-producer
 
 ### Installation
 * Clone current repo    
